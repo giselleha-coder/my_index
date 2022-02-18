@@ -1,0 +1,167 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+    
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+    height: 100%; 
+    
+  }
+
+  .eagle {
+    width: 80%;
+    /* height: 65%;  */
+    position: relative;
+    top: 80px;
+    left: 17px;
+
+  }
+  
+  .skinny {
+    height: 16.8%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  .bigsmall{
+    width: 18%;
+    height: 25%; 
+  }
+  .skinnyhoriz{
+    width: 40%;
+    height: 10%; 
+  }
+  .skinnyvert{
+    width: 5%;
+    height: 60%; 
+    position: relative;
+    top: -105px;
+    left: 90px
+  }
+
+  .bigsmallspecial1{
+    width: 18%;
+    height: 25%; 
+    position: relative;
+    top: -182px;
+    left: 0px
+  }
+  .bigsmallspecial2{
+    width: 17%;
+    height: 25%; 
+    position: relative;
+    top: -360px;
+    left: 114px
+  }
+  .bigsmallspecial3{
+    width: 17%;
+    height: 25%; 
+    position: relative;
+    top: -330px;
+    left: 114px
+  }
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+  
+  .babyblue{
+      background-color: #89CFF0;
+  }
+
+  .midnightblue{
+    background-color: #191970;
+}
+  
