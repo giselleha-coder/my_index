@@ -1,0 +1,107 @@
+  .wrapper{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 5px;
+    /* border: solid; */
+  }
+  
+
+  h1{
+    font-family: sans-serif, Verdana ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 51px;
+  }
+  p{
+    font-family: sans-serif, Verdana ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: auto;
+    line-height: 20px;
+    white-space: wrap;
+  }
+
+  
+  .BasicIntro {
+    flex-wrap: wrap;
+    text-align: left;
+    border: solid 6px;
+    flex-grow: 1;
+    margin: 5px;
+    padding: 4px;
+    
+  }
+
+  .Intro{
+    width: 765px;
+    height: 348px;
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+  .AbtMe{
+    width: 594px;
+    height: 328px;
+   
+    left: 813px;
+    top: 100px;
+    
+  }
+  .head{
+    width: 1400px;
+    height: 50px;
+    background-color: #6600CC;
+    box-sizing: border-box;
+    border: solid 6px;
+    
+  }
+  
+  .ProjExp{
+    width: 300px;
+    height: 130px;
+    left: 28px;
+    top: 484px;
+  }
+  
+  .Proj{
+    width: 134px;
+    height: 244px;
+    left: 421px;
+    top: 484px;
+    font-size: auto;
+  }
+  .PersonalGoals{
+    width: 600px;
+    height: 150px;
+    left: 28px;
+    top: 484px;
+  }
+  .Contact{
+    width: 200px;
+    height: 150px;
+    left: 28px;
+    top: 484px;
+    font-size: 18px;
+    background-color: #CC99FF;
+  }
+  .dark{
+    background-color: #7F00FF;
+  }
+
+  .lighterdark{
+    background-color: #9933FF;
+  }
+
+  .lightest{
+    background-color: #B266FF;
+  }
+  
+  body{
+    padding: 2px;
+  }
+
+  /*  #7F00FF */
